@@ -1,0 +1,8 @@
+C:\Users\wellington.santos\Desktop\Sistema\Sisitema.Las\Sistema.Las.Aplicacao\bin\Debug\netcoreapp3.1\Sistema.Las.Aplicacao.deps.json
+C:\Users\wellington.santos\Desktop\Sistema\Sisitema.Las\Sistema.Las.Aplicacao\bin\Debug\netcoreapp3.1\Sistema.Las.Aplicacao.dll
+C:\Users\wellington.santos\Desktop\Sistema\Sisitema.Las\Sistema.Las.Aplicacao\bin\Debug\netcoreapp3.1\Sistema.Las.Aplicacao.pdb
+C:\Users\wellington.santos\Desktop\Sistema\Sisitema.Las\Sistema.Las.Aplicacao\obj\Debug\netcoreapp3.1\Sistema.Las.Aplicacao.csprojAssemblyReference.cache
+C:\Users\wellington.santos\Desktop\Sistema\Sisitema.Las\Sistema.Las.Aplicacao\obj\Debug\netcoreapp3.1\Sistema.Las.Aplicacao.AssemblyInfoInputs.cache
+C:\Users\wellington.santos\Desktop\Sistema\Sisitema.Las\Sistema.Las.Aplicacao\obj\Debug\netcoreapp3.1\Sistema.Las.Aplicacao.AssemblyInfo.cs
+C:\Users\wellington.santos\Desktop\Sistema\Sisitema.Las\Sistema.Las.Aplicacao\obj\Debug\netcoreapp3.1\Sistema.Las.Aplicacao.dll
+C:\Users\wellington.santos\Desktop\Sistema\Sisitema.Las\Sistema.Las.Aplicacao\obj\Debug\netcoreapp3.1\Sistema.Las.Aplicacao.pdb

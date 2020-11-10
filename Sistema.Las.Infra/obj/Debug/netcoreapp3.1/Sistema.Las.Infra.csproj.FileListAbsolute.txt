@@ -1,0 +1,11 @@
+C:\Users\wellington.santos\Desktop\Sistema\Sisitema.Las\Sistema.Las.Infra\bin\Debug\netcoreapp3.1\Sistema.Las.Infra.deps.json
+C:\Users\wellington.santos\Desktop\Sistema\Sisitema.Las\Sistema.Las.Infra\bin\Debug\netcoreapp3.1\Sistema.Las.Infra.dll
+C:\Users\wellington.santos\Desktop\Sistema\Sisitema.Las\Sistema.Las.Infra\bin\Debug\netcoreapp3.1\Sistema.Las.Infra.pdb
+C:\Users\wellington.santos\Desktop\Sistema\Sisitema.Las\Sistema.Las.Infra\obj\Debug\netcoreapp3.1\Sistema.Las.Infra.csprojAssemblyReference.cache
+C:\Users\wellington.santos\Desktop\Sistema\Sisitema.Las\Sistema.Las.Infra\obj\Debug\netcoreapp3.1\Sistema.Las.Infra.AssemblyInfoInputs.cache
+C:\Users\wellington.santos\Desktop\Sistema\Sisitema.Las\Sistema.Las.Infra\obj\Debug\netcoreapp3.1\Sistema.Las.Infra.AssemblyInfo.cs
+C:\Users\wellington.santos\Desktop\Sistema\Sisitema.Las\Sistema.Las.Infra\obj\Debug\netcoreapp3.1\Sistema.Las.Infra.dll
+C:\Users\wellington.santos\Desktop\Sistema\Sisitema.Las\Sistema.Las.Infra\obj\Debug\netcoreapp3.1\Sistema.Las.Infra.pdb
+C:\Users\wellington.santos\Desktop\Sistema\Sisitema.Las\Sistema.Las.Infra\bin\Debug\netcoreapp3.1\Sistema.Las.Domain.dll
+C:\Users\wellington.santos\Desktop\Sistema\Sisitema.Las\Sistema.Las.Infra\bin\Debug\netcoreapp3.1\Sistema.Las.Domain.pdb
+C:\Users\wellington.santos\Desktop\Sistema\Sisitema.Las\Sistema.Las.Infra\obj\Debug\netcoreapp3.1\Sistema.Las.Infra.csproj.CopyComplete
