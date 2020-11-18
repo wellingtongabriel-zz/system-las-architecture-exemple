@@ -4,9 +4,9 @@ using Sistema.Las.Domain.Categorias.Entidades;
 
 namespace Sistema.Las.Aplicacao.AutoMapper.Profiles
 {
-    public class commandParaEntidade : Profile
+    public class commandProfile : Profile
     {
-        public commandParaEntidade()
+        public commandProfile()
         {
             CreateMap<CriaCategoriaCommand, Categoria>().ReverseMap();
         }

@@ -1,10 +1,13 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using FluentValidation;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Sistema.Las.Aplicacao.Categorias.Handlers;
 using Sistema.Las.Aplicacao.Categorias.Interfaces;
 using Sistema.Las.Aplicacao.Interfaces;
 using Sistema.Las.Aplicacao.Servicos;
+using Sistema.Las.Domain.Categorias.Comandos;
 using Sistema.Las.Domain.Categorias.Repositorios;
+using Sistema.Las.Domain.Categorias.Validacoes;
 using Sistema.Las.Infra.Contextos;
 using Sistema.Las.Infra.Repositorios;
 using System;
@@ -42,6 +45,7 @@ namespace Sistema.Las.Api
 
         private static void RegistrarValidacoes(IServiceCollection services)
         {
+            services.AddScoped<IValidator<CriaCategoriaCommand>, CriaCategoriaCommandValidator>();
         }
     }
 }

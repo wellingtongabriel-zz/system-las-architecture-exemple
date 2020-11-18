@@ -17,8 +17,8 @@ namespace Sistema.Las.Aplicacao.AutoMapper
         public static MapperConfiguration ConfigureAutoMapper()
         {
             return new MapperConfiguration(configuracao => {
-                configuracao.AddProfile(new commandParaEntidade());
-                configuracao.AddProfile(new ResponseParaEntidade());
+                configuracao.AddProfile(new commandProfile());
+                configuracao.AddProfile(new ResponseProfile());
             });
         }
     }

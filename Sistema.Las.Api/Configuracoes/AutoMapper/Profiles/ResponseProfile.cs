@@ -4,9 +4,9 @@ using Sistema.Las.Domain.Categorias.Entidades;
 
 namespace Sistema.Las.Api.Configuracoes.AutoMapper.Profiles
 {
-    public class ResponseParaEntidade : Profile
+    public class ResponseProfile : Profile
     {
-        public ResponseParaEntidade()
+        public ResponseProfile()
         {
             CreateMap<CategoriaResponse, Categoria>().ReverseMap();
         }
