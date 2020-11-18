@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Sistema.Las.Infra.Mapeamentos;
 
 namespace Sistema.Las.Infra.Contextos
 {
@@ -8,7 +9,7 @@ namespace Sistema.Las.Infra.Contextos
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            //modelBuilder.ApplyConfiguration(new ClasseMapping());
+            modelBuilder.ApplyConfiguration(new CategoriaMapping());
 
             base.OnModelCreating(modelBuilder);
         }

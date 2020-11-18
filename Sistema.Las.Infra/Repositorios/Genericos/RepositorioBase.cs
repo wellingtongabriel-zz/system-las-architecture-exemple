@@ -18,10 +18,18 @@ namespace Sistema.Las.Infra.Repositorios
             _dbSet = sistemaLasContexto.Set<TEntidade>();
         }
 
-        public async Task AddAsync(TEntidade entity)
+        public async Task<TEntidade> AddAsync(TEntidade entidade)
         {
-            _dbSet.Add(entity);
+            _dbSet.Add(entidade);
             await _sistemaLasContexto.SaveChangesAsync();
+            return entidade;
+        }
+
+        public async Task<TEntidade> UpdateAsync(TEntidade entidade)
+        {
+            _dbSet.Update(entidade);
+            await _sistemaLasContexto.SaveChangesAsync();
+            return entidade;
         }
 
         public async Task DeleteAsync(Guid id)
@@ -30,27 +38,23 @@ namespace Sistema.Las.Infra.Repositorios
             await _sistemaLasContexto.SaveChangesAsync();
         }
 
-        public void Dispose()
-        {
-            _sistemaLasContexto?.Dispose();
-        }
-
-        public async Task<IEnumerable<TEntidade>> GetAll()
+        public async Task<IEnumerable<TEntidade>> GetAllAsync()
         {
             return await _dbSet
                             .AsNoTracking()
                             .ToListAsync();
         }
 
-        public Task<TEntidade> GetByIdAsync(Guid id)
+        public async Task<TEntidade> GetByIdAsync(Guid id)
         {
-            throw new NotImplementedException();
+            return await _dbSet
+                            .AsNoTracking()
+                            .FirstOrDefaultAsync(x => x.Id == id);
         }
 
-        public async Task UpdateAsync(TEntidade entity)
+        public void Dispose()
         {
-            _dbSet.Update (entity);
-            await _sistemaLasContexto.SaveChangesAsync();
+            _sistemaLasContexto?.Dispose();
         }
     }
 }

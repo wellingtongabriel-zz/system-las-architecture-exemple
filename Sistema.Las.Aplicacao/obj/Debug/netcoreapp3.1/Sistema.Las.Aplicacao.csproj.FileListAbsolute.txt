@@ -6,3 +6,17 @@ C:\Users\wellington.santos\Desktop\Sistema\Sisitema.Las\Sistema.Las.Aplicacao\ob
 C:\Users\wellington.santos\Desktop\Sistema\Sisitema.Las\Sistema.Las.Aplicacao\obj\Debug\netcoreapp3.1\Sistema.Las.Aplicacao.AssemblyInfo.cs
 C:\Users\wellington.santos\Desktop\Sistema\Sisitema.Las\Sistema.Las.Aplicacao\obj\Debug\netcoreapp3.1\Sistema.Las.Aplicacao.dll
 C:\Users\wellington.santos\Desktop\Sistema\Sisitema.Las\Sistema.Las.Aplicacao\obj\Debug\netcoreapp3.1\Sistema.Las.Aplicacao.pdb
+C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Aplicacao\bin\Debug\netcoreapp3.1\Sistema.Las.Aplicacao.deps.json
+C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Aplicacao\bin\Debug\netcoreapp3.1\Sistema.Las.Aplicacao.runtimeconfig.json
+C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Aplicacao\bin\Debug\netcoreapp3.1\Sistema.Las.Aplicacao.runtimeconfig.dev.json
+C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Aplicacao\bin\Debug\netcoreapp3.1\Sistema.Las.Aplicacao.dll
+C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Aplicacao\bin\Debug\netcoreapp3.1\Sistema.Las.Aplicacao.pdb
+C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Aplicacao\bin\Debug\netcoreapp3.1\Sistema.Las.Domain.dll
+C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Aplicacao\bin\Debug\netcoreapp3.1\Sistema.Las.Domain.pdb
+C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Aplicacao\obj\Debug\netcoreapp3.1\Sistema.Las.Aplicacao.csprojAssemblyReference.cache
+C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Aplicacao\obj\Debug\netcoreapp3.1\Sistema.Las.Aplicacao.AssemblyInfoInputs.cache
+C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Aplicacao\obj\Debug\netcoreapp3.1\Sistema.Las.Aplicacao.AssemblyInfo.cs
+C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Aplicacao\obj\Debug\netcoreapp3.1\Sistema.Las.Aplicacao.csproj.CopyComplete
+C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Aplicacao\obj\Debug\netcoreapp3.1\Sistema.Las.Aplicacao.dll
+C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Aplicacao\obj\Debug\netcoreapp3.1\Sistema.Las.Aplicacao.pdb
+C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Aplicacao\obj\Debug\netcoreapp3.1\Sistema.Las.Aplicacao.genruntimeconfig.cache

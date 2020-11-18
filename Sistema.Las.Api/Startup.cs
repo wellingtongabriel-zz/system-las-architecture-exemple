@@ -1,3 +1,4 @@
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -19,13 +20,16 @@ namespace Sistema.Las.Api
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc(opt => opt.EnableEndpointRouting = false);
+            services
+                .AddMvc(opt => opt.EnableEndpointRouting = false)
+                .AddFluentValidation();
+
+            services.RegisterServices(typeof(Startup));
 
             var stringConexao = _configuration.GetConnectionString("Default");
             services.AddDbContext<SistemaLasContexto>(opt => opt.UseSqlServer(stringConexao));
 
             services.AddCors();
-            services.RegisterServices(typeof(Startup));
             services.RegisterAutoMapper();
         }
 

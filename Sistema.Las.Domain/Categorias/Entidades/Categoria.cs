@@ -1,8 +1,10 @@
-﻿namespace Sistema.Las.Domain.Categorias.Entidades
+﻿using Sistema.Las.Domain.Entidades;
+
+namespace Sistema.Las.Domain.Categorias.Entidades
 {
-    public class Categoria
+    public class Categoria : EntidadeBase
     {
-        public string Nome { get; set; }
-        public string Descricao { get; set; }
+        public string Nome { get; private set; }
+        public string Descricao { get; private set; }
     }
 }

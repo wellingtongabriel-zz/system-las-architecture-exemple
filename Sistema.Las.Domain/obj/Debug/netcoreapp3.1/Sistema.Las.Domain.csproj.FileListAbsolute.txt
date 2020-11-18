@@ -6,3 +6,13 @@ C:\Users\wellington.santos\Desktop\Sistema\Sisitema.Las\Sistema.Las.Domain\obj\D
 C:\Users\wellington.santos\Desktop\Sistema\Sisitema.Las\Sistema.Las.Domain\obj\Debug\netcoreapp3.1\Sistema.Las.Domain.AssemblyInfo.cs
 C:\Users\wellington.santos\Desktop\Sistema\Sisitema.Las\Sistema.Las.Domain\obj\Debug\netcoreapp3.1\Sistema.Las.Domain.dll
 C:\Users\wellington.santos\Desktop\Sistema\Sisitema.Las\Sistema.Las.Domain\obj\Debug\netcoreapp3.1\Sistema.Las.Domain.pdb
+C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Domain\bin\Debug\netcoreapp3.1\Sistema.Las.Domain.deps.json
+C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Domain\bin\Debug\netcoreapp3.1\Sistema.Las.Domain.runtimeconfig.json
+C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Domain\bin\Debug\netcoreapp3.1\Sistema.Las.Domain.runtimeconfig.dev.json
+C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Domain\bin\Debug\netcoreapp3.1\Sistema.Las.Domain.dll
+C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Domain\bin\Debug\netcoreapp3.1\Sistema.Las.Domain.pdb
+C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Domain\obj\Debug\netcoreapp3.1\Sistema.Las.Domain.AssemblyInfoInputs.cache
+C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Domain\obj\Debug\netcoreapp3.1\Sistema.Las.Domain.AssemblyInfo.cs
+C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Domain\obj\Debug\netcoreapp3.1\Sistema.Las.Domain.dll
+C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Domain\obj\Debug\netcoreapp3.1\Sistema.Las.Domain.pdb
+C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Domain\obj\Debug\netcoreapp3.1\Sistema.Las.Domain.genruntimeconfig.cache
