@@ -1,11 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Sistema.Las.Aplicacao.Interfaces;
 using Sistema.Las.Domain.Categorias.Comandos;
 using System.Threading.Tasks;
 
 namespace Sistema.Las.Api.Controllers
 {
-    [ApiController]
+    [ApiController, Authorize]
     [Route("api/[controller]")]
     public class CategoriaController : ControllerBase
     {

@@ -5,7 +5,7 @@ namespace Sistema.Las.Infra.Contextos
 {
     public class SistemaLasContexto : DbContext
     {
-        public SistemaLasContexto(DbContextOptions opcoes) : base(opcoes) { }
+        public SistemaLasContexto(DbContextOptions<SistemaLasContexto> opcoes) : base(opcoes) { }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
