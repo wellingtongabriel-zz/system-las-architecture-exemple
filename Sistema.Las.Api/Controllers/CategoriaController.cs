@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Sistema.Las.Aplicacao.Categorias.Interfaces;
 using Sistema.Las.Aplicacao.Interfaces;
 using Sistema.Las.Domain.Categorias.Comandos;
 using System.Threading.Tasks;
@@ -11,10 +12,14 @@ namespace Sistema.Las.Api.Controllers
     public class CategoriaController : ControllerBase
     {
         private readonly ICategoriaService _categoriaService;
+        private readonly ICriaCategoriaCommandHandler _criaCategoriaCommandHandler;
 
-        public CategoriaController(ICategoriaService categoriaService)
+        public CategoriaController(
+            ICategoriaService categoriaService,
+            ICriaCategoriaCommandHandler criaCategoriaCommandHandler)
         {
             _categoriaService = categoriaService;
+            _criaCategoriaCommandHandler = criaCategoriaCommandHandler;
         }
 
         [HttpGet]
@@ -23,6 +28,6 @@ namespace Sistema.Las.Api.Controllers
 
         [HttpPost]
         public async Task<IActionResult> Post(CriaCategoriaCommand criaCategoriaCommand) 
-            => Ok(await _categoriaService.Adicionar(criaCategoriaCommand));
+            => Ok(await _criaCategoriaCommandHandler.Executa(criaCategoriaCommand));
     }
 }

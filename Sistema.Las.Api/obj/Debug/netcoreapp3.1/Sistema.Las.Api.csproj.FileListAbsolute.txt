@@ -218,8 +218,8 @@ C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Api\bin\Debug
 C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
 C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
 C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Api\obj\Debug\netcoreapp3.1\Sistema.Las.Api.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Api\obj\Debug\netcoreapp3.1\Sistema.Las.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
 C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Api\obj\Debug\netcoreapp3.1\Sistema.Las.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Api\obj\Debug\netcoreapp3.1\Sistema.Las.Api.MvcApplicationPartsAssemblyInfo.cache

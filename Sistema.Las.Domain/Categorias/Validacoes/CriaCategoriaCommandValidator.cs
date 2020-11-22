@@ -3,7 +3,7 @@ using Sistema.Las.Domain.Categorias.Comandos;
 
 namespace Sistema.Las.Domain.Categorias.Validacoes
 {
-    public class CriaCategoriaCommandValidator : AbstractValidator<CriaCategoriaCommand>
+    public class CriaCategoriaCommandValidator : CategoriaCommandValidator<CriaCategoriaCommand>
     {
         public CriaCategoriaCommandValidator()
         {

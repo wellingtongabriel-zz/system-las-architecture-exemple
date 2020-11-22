@@ -6,7 +6,7 @@ namespace Sistema.Las.Aplicacao.Autenticacao.Interfaces
 {
     public interface IAutenticacaoService
     {
-        Task<IResult> LogarUsuario(LoginCommand logarCommand);
-        Task<IResult> RegistarUsuario(RegistrarUsuarioCommand registrarUsuarioCommand);
+        Task<Result> LogarUsuario(LoginCommand logarCommand);
+        Task<Result> RegistarUsuario(RegistrarUsuarioCommand registrarUsuarioCommand);
     }
 }

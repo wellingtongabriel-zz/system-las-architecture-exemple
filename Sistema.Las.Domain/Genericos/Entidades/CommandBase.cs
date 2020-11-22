@@ -1,6 +1,9 @@
-﻿namespace Sistema.Las.Domain.Genericos.Entidades
+﻿using System;
+
+namespace Sistema.Las.Domain.Genericos.Entidades
 {
-    public abstract class CommandBase
+    public class CommandBase
     {
+        public Guid Id { get; set; } 
     }
 }

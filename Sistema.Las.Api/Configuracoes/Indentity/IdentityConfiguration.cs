@@ -20,6 +20,7 @@ namespace Sistema.Las.Api.Configuracoes.Indentity
 
             services
                 .AddDefaultIdentity<IdentityUser>()
+                .AddRoles<IdentityRole>()
                 .AddEntityFrameworkStores<IdentityContexto>()
                 .AddDefaultTokenProviders();
 

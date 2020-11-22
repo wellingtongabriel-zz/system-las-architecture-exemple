@@ -11,11 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sistema.Las.Infra", "Sistem
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sistema.Las.Aplicacao", "Sistema.Las.Aplicacao\Sistema.Las.Aplicacao.csproj", "{33697A1E-3359-4DE7-85FE-535406B64BCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistema.Las.Aplicacao.Tests", "Sistema.Las.Aplicacao.Tests\Sistema.Las.Aplicacao.Tests.csproj", "{1193F662-B24C-4CA5-9449-BE0ADD546455}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sistema.Las.Aplicacao.Tests", "Sistema.Las.Aplicacao.Tests\Sistema.Las.Aplicacao.Tests.csproj", "{1193F662-B24C-4CA5-9449-BE0ADD546455}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistema.Las.Domain.Tests", "Sistema.Las.Domain.Tests\Sistema.Las.Domain.Tests.csproj", "{1CB2535E-DD1D-4CF4-BAE8-8ECAA6CA88A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sistema.Las.Domain.Tests", "Sistema.Las.Domain.Tests\Sistema.Las.Domain.Tests.csproj", "{1CB2535E-DD1D-4CF4-BAE8-8ECAA6CA88A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistema.Las.Infra.Tests", "Sistema.Las.Infra.Tests\Sistema.Las.Infra.Tests.csproj", "{8B33257D-F323-4516-BF89-E45F33FA9F2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sistema.Las.Infra.Tests", "Sistema.Las.Infra.Tests\Sistema.Las.Infra.Tests.csproj", "{8B33257D-F323-4516-BF89-E45F33FA9F2D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

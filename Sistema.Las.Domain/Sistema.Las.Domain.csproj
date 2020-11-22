@@ -24,8 +24,4 @@
     <PackageReference Include="Wodsoft.Extensions.Configuration.Abstractions" Version="1.1.2" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Genericos\Enums\" />
-  </ItemGroup>
-
 </Project>
