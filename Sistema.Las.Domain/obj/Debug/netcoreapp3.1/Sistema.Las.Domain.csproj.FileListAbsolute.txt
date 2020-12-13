@@ -17,3 +17,4 @@ C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Domain\obj\De
 C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Domain\obj\Debug\netcoreapp3.1\Sistema.Las.Domain.pdb
 C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Domain\obj\Debug\netcoreapp3.1\Sistema.Las.Domain.genruntimeconfig.cache
 C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Domain\obj\Debug\netcoreapp3.1\Sistema.Las.Domain.csprojAssemblyReference.cache
+C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Domain\obj\Debug\netcoreapp3.1\Sistema.Las.Domain.csproj.CoreCompileInputs.cache

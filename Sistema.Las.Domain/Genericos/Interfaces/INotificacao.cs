@@ -4,7 +4,7 @@ namespace Sistema.Las.Domain.Genericos.Notificacao
 {
     public interface INotificacao
     {
-        void Handle(Notificador message);
+        void Handle(string mensagem);
         IEnumerable<Notificador> GetNotifications();
         bool HasNotifications();
     }

@@ -1,24 +1,28 @@
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Sistema.Las.Api.Configuracoes.Indentity;
-using Sistema.Las.Api.Configuracoes.Swagger;
 using Sistema.Las.Aplicacao.AutoMapper;
 using Sistema.Las.Infra.Contextos;
 
 namespace Sistema.Las.Api
 {
-    public class Startup
+    public class StartupTests
     {
         public IConfiguration _configuration { get; }
-        public Startup(IConfiguration configuration)
+        public StartupTests(IWebHostEnvironment hostEnvironment)
         {
-            _configuration = configuration;
+            var builder = new ConfigurationBuilder()
+                .SetBasePath(hostEnvironment.ContentRootPath)
+                .AddJsonFile("appsettings.json", true, true)
+                .AddJsonFile($"appsettings.{hostEnvironment.EnvironmentName}.json", true, true)
+                .AddEnvironmentVariables();
+
+            _configuration = builder.Build();
         }
 
         public void ConfigureServices(IServiceCollection services)
@@ -26,19 +30,6 @@ namespace Sistema.Las.Api
             services
                 .AddMvc(opt => opt.EnableEndpointRouting = false)
                 .AddFluentValidation();
-
-            services.AddApiVersioning(options =>
-            {
-                options.DefaultApiVersion = new ApiVersion(1, 0);
-                options.ReportApiVersions = true;
-                options.AssumeDefaultVersionWhenUnspecified = true;
-            });
-
-            services.AddVersionedApiExplorer(options =>
-            {
-                options.GroupNameFormat = "'v'VVV";
-                options.SubstituteApiVersionInUrl = true;
-            });
 
             services.RegisterServices(typeof(Startup));
 
@@ -49,7 +40,6 @@ namespace Sistema.Las.Api
 
             services.AddCors();
             services.RegisterAutoMapper();
-            services.AddSwaggerGen();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -65,7 +55,6 @@ namespace Sistema.Las.Api
             app.UseAuthentication();
             app.UseRouting();
             app.UseMvc();
-            app.UseSwaggerESwaggerUI();
         }
     }
 }

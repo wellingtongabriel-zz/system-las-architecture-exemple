@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace Sistema.Las.Api.Controllers
 {
-    [ApiController, Authorize]
-    [Route("api/[controller]")]
+    [ApiController, Authorize, ApiVersion("1.0")]
+    [Route("api/v{version:apiVersion}/[controller]")]
     public class CategoriaController : ControllerBase
     {
         private readonly ICategoriaService _categoriaService;

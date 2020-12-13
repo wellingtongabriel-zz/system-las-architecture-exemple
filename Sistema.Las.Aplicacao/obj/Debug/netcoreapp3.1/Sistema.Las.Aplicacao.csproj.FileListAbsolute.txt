@@ -20,3 +20,4 @@ C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Aplicacao\obj
 C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Aplicacao\obj\Debug\netcoreapp3.1\Sistema.Las.Aplicacao.dll
 C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Aplicacao\obj\Debug\netcoreapp3.1\Sistema.Las.Aplicacao.pdb
 C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Aplicacao\obj\Debug\netcoreapp3.1\Sistema.Las.Aplicacao.genruntimeconfig.cache
+C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Aplicacao\obj\Debug\netcoreapp3.1\Sistema.Las.Aplicacao.csproj.CoreCompileInputs.cache

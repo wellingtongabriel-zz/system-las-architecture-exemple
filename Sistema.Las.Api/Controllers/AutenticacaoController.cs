@@ -5,8 +5,8 @@ using System.Threading.Tasks;
 
 namespace Sistema.Las.Api.Controllers
 {
-    [ApiController]
-    [Route("api/[controller]")]
+    [ApiController, ApiVersion("1.0")]
+    [Route("api/v{version:apiVersion}/[controller]")]
     public class AutenticacaoController : ControllerBase
     {
         private readonly IAutenticacaoService _autenticacaoService;
@@ -18,15 +18,11 @@ namespace Sistema.Las.Api.Controllers
         }
         
         [HttpPost("login")]
-        public async Task<IActionResult> Logar(LoginCommand logarCommand)
-        {
-            return Ok(await _autenticacaoService.LogarUsuario(logarCommand));
-        }
+        public async Task<IActionResult> Logar(LoginCommand logarCommand) 
+            =>  Ok(await _autenticacaoService.LogarUsuario(logarCommand));
 
         [HttpPost("registrar")]
-        public async Task<IActionResult> Post(RegistrarUsuarioCommand registrarUsuarioCommand)
-        {
-            return Ok(await _autenticacaoService.RegistarUsuario(registrarUsuarioCommand));
-        }
+        public async Task<IActionResult> Post(RegistrarUsuarioCommand registrarUsuarioCommand) 
+            => Ok(await _autenticacaoService.RegistarUsuario(registrarUsuarioCommand));
     }
 }

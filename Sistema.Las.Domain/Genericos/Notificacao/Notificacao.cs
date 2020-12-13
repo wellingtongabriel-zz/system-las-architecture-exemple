@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 
 namespace Sistema.Las.Domain.Genericos.Notificacao
@@ -13,19 +12,13 @@ namespace Sistema.Las.Domain.Genericos.Notificacao
             _notificador = new List<Notificador>();
         }
 
-        public IEnumerable<Notificador> GetNotifications()
-        {
-            return _notificador; 
-        }
+        public IEnumerable<Notificador> GetNotifications() 
+            => _notificador; 
 
-        public void Handle(Notificador message)
-        {
-            _notificador.Add(message);
-        }
+        public void Handle(string mensagem) 
+            => _notificador.Add(new Notificador(mensagem));
 
-        public bool HasNotifications()
-        {
-            return GetNotifications().Any();
-        }
+        public bool HasNotifications() 
+            => GetNotifications().Any();
     }
 }

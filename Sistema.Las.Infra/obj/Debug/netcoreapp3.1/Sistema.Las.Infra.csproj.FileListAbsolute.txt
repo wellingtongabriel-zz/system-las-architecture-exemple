@@ -23,3 +23,4 @@ C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Infra\obj\Deb
 C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Infra\obj\Debug\netcoreapp3.1\Sistema.Las.Infra.dll
 C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Infra\obj\Debug\netcoreapp3.1\Sistema.Las.Infra.pdb
 C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Infra\obj\Debug\netcoreapp3.1\Sistema.Las.Infra.genruntimeconfig.cache
+C:\Users\wellington.santos\Desktop\Sistema\SisitemaLas\Sistema.Las.Infra\obj\Debug\netcoreapp3.1\Sistema.Las.Infra.csproj.CoreCompileInputs.cache

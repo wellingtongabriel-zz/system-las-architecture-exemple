@@ -10,7 +10,6 @@ namespace Sistema.Las.Aplicacao.Autenticacao.Contratos
         public IEnumerable<PermissoesResponse> Permissoes { get; set; }
     }
 
-
     public class LoginResponse
     {
         public string Token { get; set; }

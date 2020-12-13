@@ -18,22 +18,17 @@ namespace Sistema.Las.Domain.Genericos.Entidades
         protected ValidacaoResult Validate<T, TValidation>(T command, TValidation validation)  where T : CommandBase where TValidation : IValidation<T>
         {
             var result = validation.Validate(command);
-            foreach (var validationMessage in result.Messages)
+            foreach (var validationMessage in result.Mensagens)
             {
                 if (!string.IsNullOrEmpty(validationMessage.Message))
-                {
-                    _notificacao
-                        .Handle(new Notificador(validationMessage.Message));
-                }            
+                    _notificacao.Handle(validationMessage.Message);
             }
 
             return result;
         }
 
-        public Result Return(object value)
-        {
-            return new Result(value);
-        }
+        public Result Return(object value) 
+            => new Result(value);
 
         public Result Return()
         {
